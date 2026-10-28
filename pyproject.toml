@@ -17,7 +17,7 @@ dependencies = []
 graph-path = "graph_path_lab.cli:main"
 
 [project.optional-dependencies]
-dev = ["pytest>=8", "ruff>=0.6"]
+dev = ["pytest>=8", "ruff>=0.6", "pillow>=10"]
 
 [tool.setuptools.packages.find]
 where = ["src"]
